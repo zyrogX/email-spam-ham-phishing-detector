@@ -4,8 +4,8 @@ import pandas as pd
 import re
 
 # Load model and vectorizer
-model = joblib.load('email_classifier_model.pkl')
-vectorizer = joblib.load('tfidf_vectorizer.pkl')
+model = joblib.load('models/email_classifier_model.pkl')
+vectorizer = joblib.load('models/tfidf_vectorizer.pkl')
 
 # Preprocessing function (from notebook)
 def preprocess_email(email_text):
